@@ -4,10 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/teal_200"
+     >
 
-
-
+    <com.google.android.material.button.MaterialButton
+        android:onClick="ShowPopUp"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:text="+"
+        android:id="@+id/addButton"
+        android:backgroundTint="@color/white"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        app:cornerRadius="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

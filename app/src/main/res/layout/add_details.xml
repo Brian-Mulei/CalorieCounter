@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    android:background="@color/Dark"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+            android:paddingBottom="70dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingBottom="10dp"
+            android:text="Food Name"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/purple_200"
+            />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:text="Calories Per Portion"
+        android:textSize="20sp"
+        android:textColor="@color/purple_200"
+        />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center" android:padding="5dp">
+    <com.google.android.material.button.MaterialButton
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:backgroundTint="@color/green"
+         android:layout_gravity="center"
+        android:layout_width="90dp"
+        android:layout_height="50dp"/>
+
+    <com.google.android.material.button.MaterialButton
+
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:paddingRight="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/closebutton"
+        android:backgroundTint="@color/red"
+        android:paddingLeft="50dp" />
+
+</LinearLayout>
+
+</LinearLayout>
